@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.main {
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Inter", sans-serif;
+    color: white;
+}
+
+.allContainer {
+    background-color: hsl(0, 0%, 12%);
+    height: 36em;
+    width: 22em;
+    border-radius: 0.7em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profileContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 11%;
+}
+
+#avatar {
+    object-fit: cover;
+    border-radius: 20em;
+    max-width: 28%;
+    margin-bottom: 7%;
+}
+
+
+.listContainer {
+    margin-top: 2em;
+}
+
+.place {
+    color: hsl(75, 94%, 57%);
+    margin-top: 2%;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.description {
+    margin-top: 8%;
+    font-size: 13px;
+}
+
+.listItem {
+    text-align: center;
+    background-color: hsl(0, 0%, 20%);
+    padding: 1em 6em;
+    margin-bottom: 1em;
+    border-radius: 0.5em;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.listItem:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+}
+
+.listItem:hover>a {
+    color: hsl(0, 0%, 20%);
+}
